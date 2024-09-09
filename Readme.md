@@ -15,5 +15,9 @@
            - Message: contains the different messages communicated between the server and a client to make work the game. When a client makes an action, the client sends a message to the server and it updates the game according to the received message.
         2. Data base:
            - The data base will contain the name and score of the two players and the winner of the different games.
-         
+ 
         The project works also with the observer(Client)/observable(Server) model. Each client(observer) is an observer of the model included in the server, so the view of the game can be updated according to the state of the game. 
+   - *Libraries/Utils employed* 
+      - Javafx libraries and SceneBuilder used to create the display for the client.
+      - Jar file used to make the data base work, it is included in the project.
+      - SQLite to create the tables of the project
